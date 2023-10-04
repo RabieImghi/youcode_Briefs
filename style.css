@@ -15,12 +15,6 @@ header {
     background-color: #000000;
     color: #fff;
     height: 100px;
-    margin-bottom: 10px;
-    box-shadow: 1px 2px 10px 1px rgb(66, 66, 66)  ;
-}
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
 }
 header img{
     width: 100px;
@@ -53,18 +47,49 @@ nav a {
     font-weight: bold;
 }
 #home{
-    height: 84vh;
+    height: 85vh;
+}
+#home .imageBack{
+    width: 100%;
+    height: 86vh;
+    filter: opacity(60%);
+}
+#home .container{
+    position: absolute;
+    top: 150px;
+    margin-left: 100px;
 }
 #home .container h2{
+    margin-bottom: 50px;
     margin-top: 100px;
-    margin-left: 200px;
-    font-size: 40px;
+    font-size: 60px;
 }
+#home .container h2 p{
+    font-size: 40px;
+    color:lightskyblue;
+}
+#home .container .textCont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#home .photo img{
+    width: 800px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+#services{
+    margin: ;
+}
+
+
+
+
 /* Styles de bouton */
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #00039e;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
