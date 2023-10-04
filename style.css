@@ -47,7 +47,7 @@ nav a {
     font-weight: bold;
 }
 #home{
-    height: 85vh;
+    height:100%;
 }
 #home .imageBack{
     width: 100%;
