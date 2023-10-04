@@ -143,7 +143,31 @@ nav a {
 .total-blogs .blogs{ 
     display: flex;
     gap: 30px;
-
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 30px 2px rgba(90, 90, 90, 0.342);
+}
+.total-blogs h3{
+    color: rgb(72, 72, 245);
+}
+.total-blogs .blogs:hover{ 
+    background-color: rgba(221, 221, 221, 0.479);
+    box-shadow: 1px 1px 30px 2px rgba(68, 68, 68, 0.658);
+}
+.blog-cont button{ 
+    position: relative;
+}
+.blog-cont button{ 
+    position: relative;
+}
+.blog-cont p{ 
+    margin-top: 20px;
+}
+.blog-titre{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
 }
 /* Styles de bouton */
 .btn {
