@@ -1,17 +1,12 @@
-
-/* Réinitialisation des styles par défaut */
 body, h1, h2, ul, li, p, form {
     margin: 0;
     padding: 0;
 }
-
-/* Styles généraux */
 body {
     font-family: Arial, sans-serif;
     background-color: #eceaea25;
 }
 header {
-    z-index: 1;;
     background-color: #000000;
     color: #fff;
     height: 100px;
@@ -78,6 +73,10 @@ nav a {
     position: absolute;
     top: 150px;
     right: 100px;
+}
+.services-grid {
+    display: flex;
+    gap: 180px;
 }
 #services{
     height: 73vh;
@@ -174,7 +173,6 @@ nav a {
     font-size: 50px;
     text-decoration: underline;
 }
-/* Styles de bouton */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -186,26 +184,14 @@ nav a {
     border: none;
 }
 
-/* Styles des services */
-.services-grid {
-    display: flex;
-    gap: 180px;
-}
-
-/* Styles du formulaire de contact */
 form label, form textarea, form input, form button {
     display: block;
     margin-bottom: 20px;
     width: 100%;
 }
-
 form textarea {
     height: 150px;
 }
-
-
-
-/* Styles de pied de page */
 footer {
     background-color: #333;
     color: #fff;
@@ -214,23 +200,4 @@ footer {
     margin-top: 6px;
 }
 
-/* Styles responsives */
-@media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 24px;
-    }
-
-    nav li {
-        margin-right: 10px;
-    }
-
-    .btn {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-
-    .services-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
