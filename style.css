@@ -199,5 +199,26 @@ footer {
     padding: 10px 0;
     margin-top: 6px;
 }
-
+#blog-detail{
+    display: flex;
+    gap: 100px;
+    box-shadow: 2px 2px 20px 4px lightgrey;
+    text-align: left;
+    margin: 20px 100px;
+    padding: 20px;
+}
+#blog-detail img{
+    width: 500px;
+    padding: 45px 30px;
+    box-shadow: 2px 2px 10px lightgrey;
+    border-radius: 5px;
+}
+#blog-detail h2 {
+    color: #0e11be;
+    font-size: 30px;
+}
+#blog-detail P {
+    text-indent: 90px;
+    line-height: 2;
+}
 
