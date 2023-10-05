@@ -46,7 +46,8 @@ nav a {
 }
 #home .imageBack{
     width: 100%;
-    height: 86vh;
+    height: 84vh;
+    margin-bottom: 6px;
     filter: opacity(60%);
 }
 #home .container{
