@@ -24,6 +24,7 @@ nav ul {
     list-style: none;
     text-align: center;
 }
+
 nav ul li a.active{
     text-decoration: underline;
 } 
@@ -47,8 +48,9 @@ nav a {
 #home .imageBack{
     width: 100%;
     margin-bottom: 6px;
-    height: 84vh;
+    height: 100%;
     filter: opacity(60%);
+    
 }
 #home .container{
     position: absolute;
@@ -222,4 +224,3 @@ footer {
     text-indent: 90px;
     line-height: 2;
 }
-
